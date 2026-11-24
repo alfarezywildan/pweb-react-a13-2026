@@ -1,0 +1,139 @@
+{
+  "jobs": [
+    {
+      "id": 1001,
+      "title": "Frontend Engineering Intern (React & TypeScript)",
+      "company_name": "Nusantara Cloud Tech",
+      "category": "Software Development",
+      "candidate_required_location": "Surabaya (Hybrid)",
+      "salary": "Rp 4.500.000",
+      "tags": ["React", "TypeScript", "CSS", "Git", "REST API"]
+    },
+    {
+      "id": 1002,
+      "title": "Full-Stack Web Developer Intern",
+      "company_name": "Garuda FinTech",
+      "category": "Software Development",
+      "candidate_required_location": "Jakarta (Remote)",
+      "salary": "Rp 5.500.000",
+      "tags": ["React", "TypeScript", "PostgreSQL", "Express", "Prisma"]
+    },
+    {
+      "id": 1003,
+      "title": "Software Engineer Intern — Web Platform",
+      "company_name": "Bintang Commerce",
+      "category": "Software Development",
+      "candidate_required_location": "Indonesia (Remote)",
+      "salary": "Rp 6.000.000",
+      "tags": ["React", "TypeScript", "CSS", "Git", "Testing"]
+    },
+    {
+      "id": 1004,
+      "title": "DevOps & Cloud Infrastructure Intern",
+      "company_name": "AwanMerdeka Cloud",
+      "category": "DevOps / Sysadmin",
+      "candidate_required_location": "Jakarta (Remote)",
+      "salary": "Rp 5.200.000",
+      "tags": ["Git", "PostgreSQL", "Linux", "Docker", "CI/CD"]
+    },
+    {
+      "id": 1005,
+      "title": "UI/UX & Frontend Developer Intern",
+      "company_name": "Kreasi Digital Studio",
+      "category": "Design & Frontend",
+      "candidate_required_location": "Bandung (Hybrid)",
+      "salary": "Rp 3.800.000",
+      "tags": ["React", "CSS", "Figma", "Tailwind"]
+    },
+    {
+      "id": 1006,
+      "title": "Backend Engineer Intern (Node.js & Go)",
+      "company_name": "Sinar Logistik Nusantara",
+      "category": "Software Development",
+      "candidate_required_location": "Jakarta (Onsite)",
+      "salary": "Rp 5.000.000",
+      "tags": ["Node.js", "Go", "PostgreSQL", "Docker", "REST API"]
+    },
+    {
+      "id": 1007,
+      "title": "Data Analytics & BI Intern",
+      "company_name": "EduSpark Indonesia",
+      "category": "Data Analysis",
+      "candidate_required_location": "Yogyakarta (Hybrid)",
+      "salary": "Rp 3.500.000",
+      "tags": ["Python", "SQL", "PostgreSQL", "Tableau"]
+    },
+    {
+      "id": 1008,
+      "title": "React Native Mobile Developer Intern",
+      "company_name": "SehatKu HealthTech",
+      "category": "Mobile Development",
+      "candidate_required_location": "Indonesia (Remote)",
+      "salary": "Rp 4.800.000",
+      "tags": ["React", "TypeScript", "React Native", "REST API", "Git"]
+    },
+    {
+      "id": 1009,
+      "title": "QA Automation Engineer Intern",
+      "company_name": "PayNusa Financial",
+      "category": "QA & Testing",
+      "candidate_required_location": "Jakarta (Hybrid)",
+      "salary": "Rp 4.200.000",
+      "tags": ["TypeScript", "Playwright", "Cypress", "Git", "REST API"]
+    },
+    {
+      "id": 1010,
+      "title": "Cloud & Kubernetes Engineer Intern",
+      "company_name": "TelkoData Solusi",
+      "category": "DevOps / Sysadmin",
+      "candidate_required_location": "Bandung (Onsite)",
+      "salary": "Rp 5.300.000",
+      "tags": ["Docker", "Kubernetes", "Linux", "AWS", "Terraform"]
+    },
+    {
+      "id": 1011,
+      "title": "Frontend Web Intern",
+      "company_name": "AgriTech Mandiri",
+      "category": "Software Development",
+      "candidate_required_location": "Malang (Remote)",
+      "salary": "Rp 3.600.000",
+      "tags": ["React", "TypeScript", "CSS"]
+    },
+    {
+      "id": 1012,
+      "title": "Machine Learning & AI Engineer Intern",
+      "company_name": "VisiAI Labs",
+      "category": "Data Analysis",
+      "candidate_required_location": "Jakarta (Hybrid)",
+      "salary": "Rp 5.800.000",
+      "tags": ["Python", "PyTorch", "Docker", "FastAPI", "Git"]
+    },
+    {
+      "id": 1013,
+      "title": "Product Design & Frontend Prototyper Intern",
+      "company_name": "Traveloka Mitra Studio",
+      "category": "Design & Frontend",
+      "candidate_required_location": "Tangerang (Hybrid)",
+      "salary": "Rp 4.700.000",
+      "tags": ["React", "CSS", "TypeScript", "Figma"]
+    },
+    {
+      "id": 1014,
+      "title": "Software Quality & Testing Intern",
+      "company_name": "Karya Media Utama",
+      "category": "QA & Testing",
+      "candidate_required_location": "Surabaya (Onsite)",
+      "salary": "Rp 3.400.000",
+      "tags": ["Testing", "Git", "REST API", "Postman"]
+    },
+    {
+      "id": 1015,
+      "title": "Full-Stack TypeScript Intern",
+      "company_name": "Samudra Tech Labs",
+      "category": "Software Development",
+      "candidate_required_location": "Indonesia (Remote)",
+      "salary": "Rp 5.100.000",
+      "tags": ["React", "TypeScript", "CSS", "Docker", "PostgreSQL"]
+    }
+  ]
+}
