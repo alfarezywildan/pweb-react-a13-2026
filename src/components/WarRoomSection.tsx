@@ -7,6 +7,7 @@ import {
   Filter,
   Search,
   Sparkles,
+  Trash2,
 } from 'lucide-react';
 import type { Application, ApplicationStatus } from '../types';
 import {
@@ -35,6 +36,7 @@ interface WarRoomSectionProps {
   kaptenSkills: string[];
   onSimulatePlus15Days: (appId: string) => void;
   onSelectApplication?: (appId: string) => void;
+  onDeleteApplication?: (appId: string) => void;
 }
 
 function formatDateTime(isoOrLocal?: string): string {
@@ -64,6 +66,7 @@ export function WarRoomSection({
   kaptenSkills,
   onSimulatePlus15Days,
   onSelectApplication,
+  onDeleteApplication,
 }: WarRoomSectionProps) {
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [statusFilter, setStatusFilter] = useState<'ALL' | ApplicationStatus>(
@@ -342,15 +345,29 @@ export function WarRoomSection({
                     </span>
                   )}
 
-                  {onSelectApplication && (
-                    <button
-                      type="button"
-                      onClick={() => onSelectApplication(app.id)}
-                      className="px-3 py-1.5 rounded-lg bg-slate-900 text-xs font-semibold text-white hover:bg-slate-800 transition-colors cursor-pointer"
-                    >
-                      Detail &amp; Transisi
-                    </button>
-                  )}
+                  <div className="flex items-center gap-2">
+                    {onDeleteApplication && (
+                      <button
+                        type="button"
+                        onClick={() => onDeleteApplication(app.id)}
+                        aria-label={`Hapus lamaran ${app.role} di ${app.company}`}
+                        className="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg border border-red-200 bg-red-50 text-xs font-semibold text-red-700 hover:bg-red-100 transition-colors cursor-pointer"
+                      >
+                        <Trash2 className="w-3.5 h-3.5" />
+                        Hapus
+                      </button>
+                    )}
+
+                    {onSelectApplication && (
+                      <button
+                        type="button"
+                        onClick={() => onSelectApplication(app.id)}
+                        className="px-3 py-1.5 rounded-lg bg-slate-900 text-xs font-semibold text-white hover:bg-slate-800 transition-colors cursor-pointer"
+                      >
+                        Detail &amp; Transisi
+                      </button>
+                    )}
+                  </div>
                 </div>
               </article>
             );
